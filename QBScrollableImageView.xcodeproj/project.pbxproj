@@ -18,6 +18,8 @@
 		AABED1F316B4686300B00294 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABED1F216B4686300B00294 /* Default-568h@2x.png */; };
 		AABED1F616B4686300B00294 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABED1F416B4686300B00294 /* MainStoryboard.storyboard */; };
 		AABED1F916B4686300B00294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABED1F816B4686300B00294 /* ViewController.m */; };
+		AABED20116B468BC00B00294 /* QBScrollableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABED20016B468BC00B00294 /* QBScrollableImageView.m */; };
+		AABED20316B470F600B00294 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = AABED20216B470F600B00294 /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		AABED1F516B4686300B00294 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AABED1F716B4686300B00294 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AABED1F816B4686300B00294 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AABED1FF16B468BC00B00294 /* QBScrollableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBScrollableImageView.h; sourceTree = "<group>"; };
+		AABED20016B468BC00B00294 /* QBScrollableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBScrollableImageView.m; sourceTree = "<group>"; };
+		AABED20216B470F600B00294 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				AABED1E216B4686300B00294 /* QBScrollableImageView */,
+				AABED1E316B4686300B00294 /* Supporting Files */,
 				AABED1DB16B4686300B00294 /* Frameworks */,
 				AABED1D916B4686300B00294 /* Products */,
 			);
@@ -83,12 +89,13 @@
 		AABED1E216B4686300B00294 /* QBScrollableImageView */ = {
 			isa = PBXGroup;
 			children = (
+				AABED20816B4729A00B00294 /* Classes */,
 				AABED1EB16B4686300B00294 /* AppDelegate.h */,
 				AABED1EC16B4686300B00294 /* AppDelegate.m */,
 				AABED1F416B4686300B00294 /* MainStoryboard.storyboard */,
 				AABED1F716B4686300B00294 /* ViewController.h */,
 				AABED1F816B4686300B00294 /* ViewController.m */,
-				AABED1E316B4686300B00294 /* Supporting Files */,
+				AABED20916B472AD00B00294 /* Resources */,
 			);
 			path = QBScrollableImageView;
 			sourceTree = "<group>";
@@ -105,6 +112,24 @@
 				AABED1F216B4686300B00294 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = QBScrollableImageView;
+			sourceTree = "<group>";
+		};
+		AABED20816B4729A00B00294 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AABED1FF16B468BC00B00294 /* QBScrollableImageView.h */,
+				AABED20016B468BC00B00294 /* QBScrollableImageView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AABED20916B472AD00B00294 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABED20216B470F600B00294 /* cat.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +188,7 @@
 				AABED1F116B4686300B00294 /* Default@2x.png in Resources */,
 				AABED1F316B4686300B00294 /* Default-568h@2x.png in Resources */,
 				AABED1F616B4686300B00294 /* MainStoryboard.storyboard in Resources */,
+				AABED20316B470F600B00294 /* cat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +202,7 @@
 				AABED1E916B4686300B00294 /* main.m in Sources */,
 				AABED1ED16B4686300B00294 /* AppDelegate.m in Sources */,
 				AABED1F916B4686300B00294 /* ViewController.m in Sources */,
+				AABED20116B468BC00B00294 /* QBScrollableImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

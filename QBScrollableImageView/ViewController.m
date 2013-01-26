@@ -8,22 +8,21 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
+// Views
+#import "QBScrollableImageView.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    QBScrollableImageView *imageView = [[QBScrollableImageView alloc] initWithFrame:CGRectMake(20, 40, 280, 210)];
+    imageView.image = [UIImage imageNamed:@"cat.png"];
+    imageView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
+    
+    [self.view addSubview:imageView];
+    [imageView release];
 }
 
 @end
